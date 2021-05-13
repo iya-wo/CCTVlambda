@@ -36,7 +36,7 @@ const getItem = event => {
 
 const createMap = event => {
     let body = JSON.parse(event.body);
-    console.log('this was the map that was passed up', body);
+    console.log('successfully pushed to GitHub', body);
     return {
         statusCode: 200,
         body: JSON.stringify({
